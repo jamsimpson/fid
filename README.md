@@ -1,2 +1,2 @@
 # fid
-Fundamentals of Interactive Design
+This repository holds all of my class projects for DIG2500C.
