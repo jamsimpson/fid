@@ -1,0 +1,109 @@
+body {
+	margin: 0 15%;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	background-color: #2c7528;
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Ubuntu', sans-serif;
+	/* border-bottom: 2px solid black; */
+	background-color: #6fc46a;
+	border-radius: 30px;
+}
+
+h2 {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 120%;
+}
+
+#worksample {
+	float: right;
+	width: 50%;
+	margin-left: 450px;
+	position: absolute;
+	bottom: 30px;
+	left: 180px;
+}
+
+#skills {
+	background-color: #6fc46a;
+	width: 7%;
+	text-align: center;
+	border-radius: 20px;
+}
+
+#interests {
+	font-size: 90%;
+	text-align: center;
+}
+
+#software {
+	background-color: #6fc46a;
+	width: 23%;
+	text-align: center;
+	border-radius: 20px;
+}
+
+#bio {
+	background-color: #6fc46a;
+	width: 19%;
+	text-align: center;
+	border-radius: 20px;
+}
+
+#sbox1 {
+	background-color: #6fc46a;
+	width: 32%;
+	border-radius: 20px;
+}
+
+#sbox2 {
+	background-color: #6fc46a;
+	width: 18%;
+	border-radius: 20px;
+}
+
+#samples {
+	background-color: #6fc46a;
+	width: 24%;
+	text-align: center;
+	border-radius: 20px;
+}
+
+#socialmedia {
+	background-color: #6fc46a;
+	width: 30%;
+	border-radius: 20px;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+#backbutton {
+	background-color: #6fc46a;
+	width: 20%;
+	margin: 0 auto;
+	border-radius: 20px;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+footer {
+	text-align: center;
+	padding-bottom: 1em;
+}
+
+a:hover {
+	color: #1fb816;
+	/* background-color: #fff; */
+	background-color: #57b570;
+}
+
+a:visited { color: #0d4f09; }
+
+a:link { color: white; }
+
+#gallery_center {
+	text-align: center;
+}

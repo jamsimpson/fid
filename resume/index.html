@@ -3,49 +3,45 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
+<link rel="stylesheet" href="wp_styles.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
 <title>Jamal's Resume</title>
-
-<style>
-body {
-	margin: 0 15%;
-	font-family: sans-serif;
-	color: white;
-	background-color: #238c87;
-}
-h1{
-	text-align: center;
-	font-family: sans-serif;
-	border-bottom: 2px solid black;
-	background-color: #2dbdb6;
-}
-h2 {
-	border-bottom: 1px solid black;
-}
-</style>
-
 </head>
 <body>
-	<h1>Jamal Simpson</h1>
+	<h1>Work of Jamal Simpson</h1>
 
-	<h2>Bio/Introduction:</h2>
+	<h2 id="bio">Bio/Introduction:</h2>
 	<p>Welcome and thank you for taking the time to look through my resume. My name is Jamal Simpson and I am currently enrolled at Seminole State College. I am currently working on my Art Emerging Media Track for BFA major. In my freetime, I work on digital illustration, mainly of my favorite characters from video games or comics. I am interested and have tried animating in the past but I have been focusing on illustration. In the future, I would like to work on digital illustration full-time or even work on designing logos for businesses. I am also considering entering the realm of game development and game design. </p>
 
-	<h2>Skills:</h2>
+	<h2 id="skills">Skills:</h2>
+	<div id="sbox1">
 	<ul>
 		<li>Illustration</li>
 		<li>Graphic Design</li>
 		<li>HTML</li>
 		<li>2D Animation</li>
 		<li>C++</li>
-		<p>These are the skills I am interested in pursuing:
+	</ul>
+	<h2 id="interests">These are the skills I am interested in pursuing:</h2>
+	<ul>
 		<li>User Experience Design</li>
 		<li>CSS</li>
 		<li>JavaScript</li>
 		<li>Game Design</li>
 		<li>Web Design</li>
 	</ul>
+	</div>
 
-	<h2>Software/Hardware:</h2>
+	<h2 id="software">Software/Hardware:</h2>
+	<div id="sbox2">
 	<ul>
 		<li>Krita</li>
 		<li>Photoshop</li>
@@ -53,19 +49,26 @@ h2 {
 		<li>InDesign</li>
 		<li>Lightroom</li>
 	</ul>
+	</div>
 
-	<h2>Social Media:</h2>
-	<ul>
-		<li><a href="https://jamsimpson.github.io/fid/">My GitHub</a></li>
-		<li><a href="https://www.instagram.com/jay.illustrate/?hl=en">My Instagram</a></li>
-	</ul>
+	<div id="worksample"> 
+		<h2 id="samples">Work Samples:</h2>
+			<a href="gallery/cyanhand.html"><img src="thumbnails/digitalart1.png" alt="a drawing of a hand" width="200" height="200"></a>
+			<a href="gallery/compositeproj.html"><img src="thumbnails/compositeproj.png" alt="my composite project" width="200" height="200"></a>
+			<a href="gallery/blackandwhite.html"><img src="thumbnails/digitalart2.png" alt="a drawing of two video game characters" width="200" height="200"></a>
+			<a href="gallery/spiderman.html"><img src="thumbnails/digitalart3.png" alt="a drawing of two super hero characters" width="200" height="200"></a>
+			<a href="gallery/chardesign.html"><img src="thumbnails/chardesign.png" alt="my character design project" width="200" height="200"></a>
+			<a href="gallery/noir2.html"><img src="thumbnails/digitalart4.png" alt="another drawing of spider-man noir" width="200" height="200"></a>
+	</div>
 
-	<h2>Work Samples:</h2>
-	<center><a href="gallery/cyanhand.html"><img src="thumbnails/digitalart1.png" alt="a drawing of a hand" width="200" height="200"></a>
-	<a href="gallery/compositeproj.html"><img src="thumbnails/compositeproj.png" alt="my composite project" width="200" height="200"></a>
-	<a href="gallery/blackandwhite.html"><img src="thumbnails/digitalart2.png" alt="a drawing of two video game characters" width="200" height="200"></a>
-	<a href="gallery/spiderman.html"><img src="thumbnails/digitalart3.png" alt="a drawing of two super hero characters" width="200" height="200"></a>
-	<a href="gallery/chardesign.html"><img src="thumbnails/chardesign.png" alt="my character design project" width="200" height="200"></a></center>
+	<footer>
+	<div id="socialmedia">
+		<h2>Social Media:</h2>
+			<p>
+			<a href="https://jamsimpson.github.io/fid/" target="_blank">My GitHub</a> |	<a href="https://www.instagram.com/jay.illustrate/?hl=en" target="_blank">My Instagram</a>
+			</p>
+	</div>
+	</footer>
 
 </body>
 </html>
