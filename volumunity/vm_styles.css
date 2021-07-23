@@ -41,7 +41,7 @@ header {
 	width: 80%;
 }
 
-a:link { color: #55f046; }
+a:link { color: #fff; }
 a:visited { color: #7cf794; }
 a:focus, a:hover { color: #55f046;
 	  background-color: rgba(255,255,255,.25); }
