@@ -1,0 +1,113 @@
+#toph1 {
+	text-align: center;
+}
+
+#toph2 {
+	margin: 0 auto;
+	text-align: center;
+	width: 75%;
+	background-color: #16ab18;
+	border-radius: 20px;
+}
+
+body {
+	margin: 0 15%;
+	/* background-color: #90d5f5; */
+	background-color: #32a3d9;
+	font-family: 'Fira Sans', sans-serif;
+}
+
+#introP {
+	margin: 0 auto;
+	margin-top: 3%;
+	text-align: center;
+	width: 60%;
+}
+
+p {
+	font-family: 'Rubik', sans-serif;
+}
+
+#logo {
+	margin-top: 10%;
+	text-align: center;
+}
+
+header {
+	background-color: rgba(255,255,255,.35);
+	padding: .05em;
+	border-radius: 50px;
+	margin: 0 auto;
+	width: 80%;
+}
+
+a:link { color: #2abf4b; }
+a:visited { color: #7cf794; }
+a:focus, a:hover { color: #7aff8e;
+	  background-color: rgba(255,255,255,.25); }
+a:active { color: #6f9678;
+	   background-color: #3d7349;  }
+
+#volabout {
+	text-align: center;
+	margin: 0 auto;
+	width: 70%;
+}
+
+#volstories {
+	text-align: center;
+	margin: 0 auto;
+	width: 60%;
+}
+
+#volopp {
+	text-align: center;
+	font-size: 90%;
+}
+
+#voljoin {
+	text-align: center;
+	font-size: 90%;
+}
+
+footer {
+	border-top: 2px solid #0a4f0b;
+	text-align: center;
+}
+
+footer img {
+	width: 40px;
+	height: 40px;
+	background: rgba(9,71,26,.35);
+	border-radius: 10px;
+}
+
+#volun1 {
+	text-align: center;
+}
+
+#volun1 img {
+	width: 40%;
+	height: 40%;
+	border-radius: 10px;
+}
+
+#volun2 {
+	text-align: center;
+}
+
+#volun2 img {
+	width: 40%;
+	height: 40%;
+	border-radius: 10px;
+}
+
+#volun3 {
+	text-align: center;
+}
+
+#volun3 img {
+	width: 40%;
+	height: 40%;
+	border-radius: 10px;
+}
