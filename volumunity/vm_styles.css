@@ -41,11 +41,11 @@ header {
 	width: 80%;
 }
 
-a:link { color: #e1f5df; }
+a:link { color: #55f046; }
 a:visited { color: #7cf794; }
-a:focus, a:hover { color: #7aff8e;
+a:focus, a:hover { color: #55f046;
 	  background-color: rgba(255,255,255,.25); }
-a:active { color: #6f9678;
+a:active { color: #55f046;
 	   background-color: #3d7349;  }
 
 #volabout {
