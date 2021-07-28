@@ -6,7 +6,7 @@ body {
   /* background-color: #faf2e4; */
   /* background-image: url(images/bullseye.png);
      background-position: center; */
-  background: #fcce7c url(images/blackgoose.png) no-repeat center 100px fixed;
+  background: #ffdda1 url(images/blackgoose.png) no-repeat center 100px fixed;
 }
 header {
   background-color: rgba(255,255,255,.5);
