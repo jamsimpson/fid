@@ -11,6 +11,17 @@ h1 {
 	/* border-bottom: 2px solid black; */
 	background-color: #6fc46a;
 	border-radius: 30px;
+	width: 40%;
+}
+
+#galleryh1 {
+	text-align: center;
+	font-family: 'Ubuntu', sans-serif;
+	/* border-bottom: 2px solid black; */
+	background-color: #6fc46a;
+	border-radius: 30px;
+	margin: 0 auto;
+	margin-top: 10px;
 }
 
 h2 {
